@@ -251,6 +251,7 @@ local DigSiteRaces = {
 	[1493] = ARCH_CURRENCY_MANTID,	-- Venomous Ledge Digsite
 	[1495] = ARCH_CURRENCY_MANTID,	-- Amber Quarry Digsite
 	[1501] = ARCH_CURRENCY_MANTID,	-- Kypari'zar Digsite
+	[1503] = ARCH_CURRENCY_MANTID,	-- Lake of Stars Digsite (race inferred: the wiki's Lake of Stars (north); north told from south by the datamined position, north has the larger X)
 	[1507] = ARCH_CURRENCY_MANTID,	-- Kypari Vor Digsite
 
 	-- Mogu
@@ -280,6 +281,7 @@ local DigSiteRaces = {
 	[1338] = ARCH_CURRENCY_MOGU,	-- Fire Camp Osul Digsite
 	[1340] = ARCH_CURRENCY_MOGU,	-- Hatred's Vice Digsite
 	[1342] = ARCH_CURRENCY_MOGU,	-- Shanze'Dao Digsite
+	[1346] = ARCH_CURRENCY_MOGU,	-- Lake of Stars Digsite (race inferred: the wiki's Lake of Stars (south); north told from south by the datamined position, north has the larger X)
 	[1348] = ARCH_CURRENCY_MOGU,	-- Terrace of Gurthan Digsite
 	[1356] = ARCH_CURRENCY_MOGU,	-- South Ruins of Dojan Digsite
 	[1358] = ARCH_CURRENCY_MOGU,	-- North Ruins of Dojan Digsite
@@ -287,6 +289,7 @@ local DigSiteRaces = {
 	[1497] = ARCH_CURRENCY_MOGU,	-- The Briny Muck Digsite
 
 	-- Pandaren
+	[918] = ARCH_CURRENCY_PANDAREN,	-- Tiger's Wood Digsite (race inferred: spelling variant of the wiki's Tigers' Wood)
 	[923] = ARCH_CURRENCY_PANDAREN,	-- Tian Digsite
 	[928] = ARCH_CURRENCY_PANDAREN,	-- Shrine of the Dawn Digsite
 	[936] = ARCH_CURRENCY_PANDAREN,	-- Emperor's Omen Digsite
@@ -358,6 +361,7 @@ local DigSiteRaces = {
 	[1750] = ARCH_CURRENCY_OGRE,	-- Umbrafen Digsite
 	[1764] = ARCH_CURRENCY_OGRE,	-- Writhing Mire Digsite
 	[1776] = ARCH_CURRENCY_OGRE,	-- Gordal Fortress Digsite
+	[1780] = ARCH_CURRENCY_OGRE,	-- Duskfall Island Digsite (race inferred: name variant of the wiki's Duskfall)
 	[1782] = ARCH_CURRENCY_OGRE,	-- Zangarra Digsite
 	[1786] = ARCH_CURRENCY_OGRE,	-- Ango'rosh Digsite
 	[1788] = ARCH_CURRENCY_OGRE,	-- Forgotten Ogre Ruin Digsite
@@ -433,6 +437,7 @@ local DigSiteRaces = {
 	[1955] = ARCH_CURRENCY_HIGHMOUNTAIN,	-- Digsite: The Witchwood
 	[1957] = ARCH_CURRENCY_HIGHMOUNTAIN,	-- Digsite: Bloodhunt Highland
 	[1959] = ARCH_CURRENCY_HIGHMOUNTAIN,	-- Digsite: The Haglands
+	[1961] = ARCH_CURRENCY_HIGHMOUNTAIN,	-- Digsite: Darkfeather Valley (race inferred: name variant of the wiki's Darkfeather Alley)
 	[1963] = ARCH_CURRENCY_HIGHMOUNTAIN,	-- Digsite: Sky Sepulcher
 	[1965] = ARCH_CURRENCY_HIGHMOUNTAIN,	-- Digsite: Northern Snowblind Mesa
 	[1967] = ARCH_CURRENCY_HIGHMOUNTAIN,	-- Digsite: Dragon's Falls
