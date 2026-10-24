@@ -861,6 +861,8 @@ do
 		AttachTooltipSearchResults(self, SearchForObject, field, tonumber(id), SearchOptionByField[field])
 	end
 end
+-- Allows other modules to show the search results of a field/id in a tooltip they have built themselves
+app.AttachSearchResultsToTooltip = AttachTypicalSearchResults
 
 local function TryShowUnitTooltipInfo(self, guid)
 	if app.Settings:GetTooltipSetting("guid") then self:AddDoubleLine(L.GUID, guid) end

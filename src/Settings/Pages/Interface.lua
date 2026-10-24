@@ -210,6 +210,23 @@ end)
 checkboxPetCageTooltips:SetATTTooltip(L.PET_CAGE_TOOLTIPS_CHECKBOX_TOOLTIP)
 checkboxPetCageTooltips:AlignAfter(checkboxExceptNPCs)
 
+local checkboxDigSiteTooltips = child:CreateCheckBox(L.DIGSITE_TOOLTIP_CHECKBOX,
+function(self)
+	self:SetChecked(settings:GetTooltipSetting("DigSiteTooltip"))
+	if not settings:GetTooltipSetting("Enabled") then
+		self:Disable()
+		self:SetAlpha(0.4)
+	else
+		self:Enable()
+		self:SetAlpha(1)
+	end
+end,
+function(self)
+	settings:SetTooltipSetting("DigSiteTooltip", self:GetChecked())
+end)
+checkboxDigSiteTooltips:SetATTTooltip(L.DIGSITE_TOOLTIP_CHECKBOX_TOOLTIP)
+checkboxDigSiteTooltips:AlignAfter(checkboxPetCageTooltips)
+
 local checkboxSummarizeThings = child:CreateCheckBox(L.SUMMARIZE_CHECKBOX,
 function(self)
 	self:SetChecked(settings:GetTooltipSetting("SummarizeThings"))

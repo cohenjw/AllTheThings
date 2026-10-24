@@ -87,6 +87,7 @@ src\Modules\Search.lua
 src\Modules\Social.lua
 src\Modules\Symlink.lua
 src\Modules\Tooltip.lua
+src\Modules\DigSites.lua
 src\Modules\Upgrade.lua
 src\Modules\Vignette.lua
 src\Modules\Contributor.lua

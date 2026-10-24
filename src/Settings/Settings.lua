@@ -380,6 +380,7 @@ local TooltipSettingsBase = {
 		["IncludeOriginalSource"] = true,
 		["LootSpecializations"] = true,
 		["WorldMapButton"] = true,
+		["DigSiteTooltip"] = true,
 		["MinimapButton"] = true,
 		["MinimapSize"] = 36,
 		["IconPortraits"] = true,
